@@ -1,0 +1,541 @@
+UsageDateTime,MeterCategory,CostInBillingCurrency,Tags,is_anomaly,anomaly_type
+2026-01-01,Virtual Machines,1227.49,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-01,Storage,580.29,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-01,Network,298.02,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-02,Virtual Machines,1237.94,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-02,Storage,623.42,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-02,Network,299.72,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-03,Virtual Machines,792.86,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-03,Storage,557.71,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-03,Network,192.43,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-04,Virtual Machines,757.07,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-04,Storage,597.16,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-04,Network,184.51,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-05,Virtual Machines,1216.39,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-05,Storage,608.62,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-05,Network,295.49,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-06,Virtual Machines,1176.25,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-06,Storage,596.36,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-06,Network,294.91,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-07,Virtual Machines,1236.04,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-07,Storage,604.66,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-07,Network,292.28,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-08,Virtual Machines,1255.93,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-08,Storage,632.85,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-08,Network,313.89,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-09,Virtual Machines,1259.99,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-09,Storage,599.93,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-09,Network,301.48,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-10,Virtual Machines,813.84,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-10,Storage,596.79,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-10,Network,174.27,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-11,Virtual Machines,820.45,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-11,Storage,575.33,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-11,Network,176.26,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-12,Virtual Machines,1220.1,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-12,Storage,626.62,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-12,Network,307.46,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-13,Virtual Machines,1178.19,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-13,Storage,642.84,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-13,Network,300.26,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-14,Virtual Machines,1183.36,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-14,Storage,645.47,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-14,Network,317.67,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-15,Virtual Machines,1256.37,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-15,Storage,643.55,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-15,Network,310.81,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-16,Virtual Machines,1227.47,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-16,Storage,609.18,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-16,Network,305.25,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-17,Virtual Machines,783.13,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-17,Storage,588.25,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-17,Network,190.31,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-18,Virtual Machines,796.17,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-18,Storage,581.05,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-18,Network,178.19,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-19,Virtual Machines,1244.99,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-19,Storage,614.43,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-19,Network,317.68,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-20,Virtual Machines,1228.02,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-20,Storage,637.01,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-20,Network,311.79,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-21,Virtual Machines,1261.95,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-21,Storage,632.21,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-21,Network,314.41,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-22,Virtual Machines,1237.98,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-22,Storage,630.03,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-22,Network,319.91,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-23,Virtual Machines,1262.34,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-23,Storage,652.16,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-23,Network,319.72,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-24,Virtual Machines,838.7,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-24,Storage,624.47,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-24,Network,195.3,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-25,Virtual Machines,822.93,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-25,Storage,624.94,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-25,Network,190.16,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-26,Virtual Machines,1262.52,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-26,Storage,632.25,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-26,Network,322.02,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-27,Virtual Machines,1275.86,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-27,Storage,627.45,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-27,Network,321.16,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-28,Virtual Machines,1203.67,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-28,Storage,645.37,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-28,Network,319.61,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-29,Virtual Machines,1208.29,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-29,Storage,672.69,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-29,Network,322.34,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-30,Virtual Machines,1244.24,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-30,Storage,632.02,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-30,Network,309.14,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-01-31,Virtual Machines,820.9,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-31,Storage,652.41,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-01-31,Network,192.32,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-01,Virtual Machines,786.27,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-01,Storage,636.0,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-01,Network,190.31,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-02,Virtual Machines,1275.94,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-02,Storage,643.12,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-02,Network,322.6,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-03,Virtual Machines,1253.63,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-03,Storage,690.67,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-03,Network,312.5,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-04,Virtual Machines,1264.27,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-04,Storage,691.09,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-04,Network,306.92,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-05,Virtual Machines,1296.31,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-05,Storage,680.07,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-05,Network,306.52,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-06,Virtual Machines,1234.03,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-06,Storage,683.19,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-06,Network,306.99,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-07,Virtual Machines,824.33,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-07,Storage,631.99,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-07,Network,194.18,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-08,Virtual Machines,771.37,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-08,Storage,662.29,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-08,Network,203.48,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-09,Virtual Machines,1305.71,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-09,Storage,691.54,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-09,Network,310.05,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-10,Virtual Machines,1286.03,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-10,Storage,654.14,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-10,Network,307.77,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-11,Virtual Machines,1243.7,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-11,Storage,681.38,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-11,Network,327.43,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-12,Virtual Machines,1281.52,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-12,Storage,681.04,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-12,Network,315.19,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-13,Virtual Machines,1314.79,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-13,Storage,681.95,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-13,Network,320.25,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-14,Virtual Machines,788.83,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-14,Storage,669.83,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-14,Network,198.19,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-15,Virtual Machines,2784.46,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,spike
+2026-02-15,Storage,632.45,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-15,Network,198.16,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-16,Virtual Machines,1284.69,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-16,Storage,679.45,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-16,Network,334.65,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-17,Virtual Machines,1235.03,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-17,Storage,690.24,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-17,Network,334.98,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-18,Virtual Machines,1263.83,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-18,Storage,703.71,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-18,Network,321.35,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-19,Virtual Machines,1250.5,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-19,Storage,725.03,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-19,Network,322.15,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-20,Virtual Machines,1315.2,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-20,Storage,684.88,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-20,Network,317.54,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-21,Virtual Machines,781.84,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-21,Storage,675.42,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-21,Network,191.88,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-22,Virtual Machines,867.95,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-22,Storage,667.29,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-22,Network,207.81,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-23,Virtual Machines,1247.31,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-23,Storage,726.82,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-23,Network,333.72,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-24,Virtual Machines,1308.76,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-24,Storage,727.53,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-24,Network,333.83,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-25,Virtual Machines,1295.45,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-25,Storage,689.05,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-25,Network,315.25,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-26,Virtual Machines,1327.23,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-26,Storage,718.64,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-26,Network,335.78,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-27,Virtual Machines,1283.6,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-27,Storage,692.14,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-27,Network,318.65,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-28,Virtual Machines,855.66,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-02-28,Storage,676.21,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-02-28,Network,189.52,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-01,Virtual Machines,836.66,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-01,Storage,657.07,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-01,Network,199.86,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-02,Virtual Machines,1266.16,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-02,Storage,737.14,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-02,Network,324.99,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-03,Virtual Machines,1286.87,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-03,Storage,693.79,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-03,Network,319.2,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-04,Virtual Machines,1281.88,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-04,Storage,722.84,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-04,Network,333.65,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-05,Virtual Machines,1272.92,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-05,Storage,737.32,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-05,Network,341.05,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-06,Virtual Machines,1325.01,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-06,Storage,701.19,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-06,Network,331.48,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-07,Virtual Machines,802.37,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-07,Storage,678.44,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-07,Network,212.45,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-08,Virtual Machines,807.2,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-08,Storage,695.33,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-08,Network,202.95,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-09,Virtual Machines,1321.56,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-09,Storage,737.5,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-09,Network,320.42,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-10,Virtual Machines,1283.92,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-10,Storage,737.04,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-10,Network,322.99,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-11,Virtual Machines,1287.92,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-11,Storage,710.44,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-11,Network,323.22,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-12,Virtual Machines,1294.24,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-12,Storage,718.26,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-12,Network,336.81,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-13,Virtual Machines,1326.3,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-13,Storage,759.84,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-13,Network,327.45,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-14,Virtual Machines,815.41,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-14,Storage,683.26,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-14,Network,205.27,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-15,Virtual Machines,872.81,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-15,Storage,680.75,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-15,Network,213.64,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-16,Virtual Machines,1264.01,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-16,Storage,750.47,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-16,Network,342.64,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-17,Virtual Machines,1351.45,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-17,Storage,762.85,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-17,Network,345.65,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-18,Virtual Machines,1297.12,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-18,Storage,770.94,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-18,Network,326.65,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-19,Virtual Machines,1357.05,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-19,Storage,756.87,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-19,Network,347.09,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-20,Virtual Machines,1311.98,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-20,Storage,764.68,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-20,Network,339.72,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-21,Virtual Machines,881.45,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-21,Storage,694.73,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-21,Network,191.76,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-22,Virtual Machines,831.29,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-22,Storage,701.3,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-22,Network,214.11,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-23,Virtual Machines,1291.82,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-23,Storage,791.01,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-23,Network,336.06,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-24,Virtual Machines,1289.36,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-24,Storage,781.71,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-24,Network,345.33,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-25,Virtual Machines,1324.31,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-25,Storage,769.39,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-25,Network,347.49,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-26,Virtual Machines,1297.19,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-26,Storage,798.49,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-26,Network,354.99,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-27,Virtual Machines,1343.46,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-27,Storage,751.49,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-27,Network,347.44,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-28,Virtual Machines,818.37,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-28,Storage,704.41,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-28,Network,199.15,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-29,Virtual Machines,860.85,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-29,Storage,758.1,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-29,Network,212.34,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-30,Virtual Machines,1357.86,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-30,Storage,771.37,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-30,Network,339.76,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-03-31,Virtual Machines,1319.74,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-31,Storage,808.35,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-03-31,Network,331.83,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-01,Virtual Machines,1374.2,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-01,Storage,784.91,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-01,Network,343.31,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-02,Virtual Machines,1360.58,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-02,Storage,781.17,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-02,Network,355.82,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-03,Virtual Machines,1380.89,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-03,Storage,779.09,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-03,Network,339.82,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-04,Virtual Machines,880.57,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-04,Storage,772.63,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-04,Network,199.88,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-05,Virtual Machines,884.84,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-05,Storage,756.89,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-05,Network,214.67,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-06,Virtual Machines,1302.93,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-06,Storage,803.64,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-06,Network,358.87,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-07,Virtual Machines,1309.56,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-07,Storage,775.37,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-07,Network,361.12,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-08,Virtual Machines,1311.16,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-08,Storage,816.51,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-08,Network,348.28,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-09,Virtual Machines,1319.76,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-09,Storage,819.61,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-09,Network,347.47,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-10,Virtual Machines,1350.1,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-10,Storage,789.01,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-10,Network,352.1,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-11,Virtual Machines,883.218,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-11,Storage,753.03,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-11,Network,234.297,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-12,Virtual Machines,852.32,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-12,Storage,829.857,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-12,Network,205.4,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-13,Virtual Machines,1520.8600000000001,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-13,Storage,780.26,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-13,Network,400.60900000000004,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-14,Virtual Machines,1349.49,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-14,Storage,887.6025,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,drift
+2026-04-14,Network,339.51,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-15,Virtual Machines,1518.2070000000003,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-15,Storage,809.28,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-15,Network,399.52150000000006,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,drift
+2026-04-16,Virtual Machines,1393.22,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-16,Storage,946.486,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-16,Network,345.41,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-17,Virtual Machines,1646.0880000000002,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-17,Storage,825.43,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-17,Network,412.3200000000001,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,drift
+2026-04-18,Virtual Machines,848.15,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-18,Storage,910.3342500000001,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-18,Network,218.79,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-19,Virtual Machines,1128.9375,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-19,Storage,773.54,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-19,Network,277.6875,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-20,Virtual Machines,1396.84,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-20,Storage,1050.07725,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-20,Network,364.94,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-21,Virtual Machines,1732.7440000000001,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,drift
+2026-04-21,Storage,794.54,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-21,Network,452.998,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,drift
+2026-04-22,Virtual Machines,1318.08,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-22,Storage,1091.86625,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-22,Network,367.92,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-23,Virtual Machines,1778.7465,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,drift
+2026-04-23,Storage,799.09,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-23,Network,478.764,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-24,Virtual Machines,1417.04,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-24,Storage,1119.04375,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,drift
+2026-04-24,Network,356.71,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-25,Virtual Machines,1177.218,"{""env"": ""Production"", ""team"": ""FinTech""}",1,drift
+2026-04-25,Storage,763.31,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-25,Network,319.34000000000003,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,drift
+2026-04-26,Virtual Machines,943.2,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-26,Storage,755.63,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-26,Network,227.42,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-27,Virtual Machines,1389.29,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-27,Storage,856.49,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-27,Network,356.7,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-28,Virtual Machines,1377.22,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-28,Storage,833.26,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-28,Network,363.29,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-29,Virtual Machines,1337.3,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-04-29,Storage,804.56,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-29,Network,353.48,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-30,Virtual Machines,1401.07,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-30,Storage,818.01,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-04-30,Network,364.49,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-01,Virtual Machines,1431.88,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-01,Storage,812.71,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-01,Network,364.97,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-02,Virtual Machines,891.76,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-02,Storage,824.7,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-02,Network,206.99,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-03,Virtual Machines,920.26,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-03,Storage,824.63,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-03,Network,229.44,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-04,Virtual Machines,1404.8,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-04,Storage,845.81,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-04,Network,364.91,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-05,Virtual Machines,1426.9,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-05,Storage,852.79,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-05,Network,348.4,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-06,Virtual Machines,1435.34,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-06,Storage,862.89,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-06,Network,367.62,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-07,Virtual Machines,1357.41,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-07,Storage,862.83,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-07,Network,359.92,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-08,Virtual Machines,1407.32,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-08,Storage,827.12,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-08,Network,368.09,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-09,Virtual Machines,960.41,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-09,Storage,782.26,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-09,Network,232.3,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-10,Virtual Machines,895.4,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-10,Storage,840.55,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-10,Network,226.93,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-11,Virtual Machines,1402.48,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-11,Storage,876.41,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-11,Network,376.05,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-12,Virtual Machines,1385.79,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-12,Storage,850.07,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-12,Network,370.4,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-13,Virtual Machines,1432.43,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-13,Storage,882.13,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-13,Network,374.72,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-14,Virtual Machines,1392.29,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-14,Storage,888.02,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-14,Network,355.36,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-15,Virtual Machines,1405.99,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-15,Storage,833.68,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-15,Network,361.85,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-16,Virtual Machines,896.64,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-16,Storage,819.27,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-16,Network,226.25,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-17,Virtual Machines,900.08,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-17,Storage,824.82,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-17,Network,213.07,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-18,Virtual Machines,1391.25,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-18,Storage,854.93,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-18,Network,355.92,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-19,Virtual Machines,1418.64,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-19,Storage,887.79,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-19,Network,372.53,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-20,Virtual Machines,1404.39,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-20,Storage,869.56,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-20,Network,380.24,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-21,Virtual Machines,1412.15,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-21,Storage,878.53,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-21,Network,355.96,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-22,Virtual Machines,1393.57,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-22,Storage,873.55,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-22,Network,367.5,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-23,Virtual Machines,927.51,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-23,Storage,842.18,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-23,Network,225.8,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-24,Virtual Machines,1471.57,"{""env"": ""Production"", ""team"": ""FinTech""}",1,contextual
+2026-05-24,Storage,1339.0140000000001,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,contextual
+2026-05-24,Network,355.539,"{""env"": ""Dev"", ""team"": ""FinTech""}",1,contextual
+2026-05-25,Virtual Machines,1467.6,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-25,Storage,853.78,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-25,Network,362.95,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-26,Virtual Machines,1361.66,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-26,Storage,900.5,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-26,Network,384.36,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-27,Virtual Machines,1389.88,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-27,Storage,922.47,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-27,Network,359.88,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-28,Virtual Machines,1469.87,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-28,Storage,883.39,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-28,Network,361.59,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-29,Virtual Machines,1420.39,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-29,Storage,878.57,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-29,Network,367.56,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-30,Virtual Machines,903.33,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-30,Storage,874.87,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-05-30,Network,225.87,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-31,Virtual Machines,904.74,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-31,Storage,862.94,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-05-31,Network,231.48,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-01,Virtual Machines,1400.55,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-01,Storage,895.76,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-01,Network,364.14,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-02,Virtual Machines,1391.57,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-02,Storage,917.1,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-02,Network,366.42,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-03,Virtual Machines,1432.38,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-03,Storage,921.15,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-03,Network,364.66,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-04,Virtual Machines,1438.71,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-04,Storage,890.32,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-04,Network,390.96,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-05,Virtual Machines,1430.61,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-05,Storage,932.28,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-05,Network,379.02,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-06,Virtual Machines,879.72,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-06,Storage,876.11,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-06,Network,240.45,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-07,Virtual Machines,944.74,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-07,Storage,891.64,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-07,Network,238.73,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-08,Virtual Machines,1405.74,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-08,Storage,894.9,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-08,Network,382.36,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-09,Virtual Machines,1428.26,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-09,Storage,942.96,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-09,Network,391.64,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-10,Virtual Machines,1423.11,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-10,Storage,900.63,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-10,Network,388.53,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-11,Virtual Machines,1415.53,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-11,Storage,945.8,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-11,Network,378.18,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-12,Virtual Machines,1462.34,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-12,Storage,894.1,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-12,Network,384.78,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-13,Virtual Machines,933.35,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-13,Storage,886.12,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-13,Network,218.77,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-14,Virtual Machines,967.3,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-14,Storage,908.53,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-14,Network,220.54,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-15,Virtual Machines,1400.68,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-15,Storage,894.56,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-15,Network,386.84,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-16,Virtual Machines,1461.41,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-16,Storage,935.48,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-16,Network,374.79,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-17,Virtual Machines,1437.84,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-17,Storage,941.06,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-17,Network,383.4,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-18,Virtual Machines,1508.66,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-18,Storage,908.78,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-18,Network,389.99,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-19,Virtual Machines,1442.37,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-19,Storage,932.61,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-19,Network,391.19,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-20,Virtual Machines,968.15,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-20,Storage,929.94,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-20,Network,219.55,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-21,Virtual Machines,900.6,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-21,Storage,911.81,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-21,Network,233.72,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-22,Virtual Machines,1431.66,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-22,Storage,912.24,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-22,Network,373.21,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-23,Virtual Machines,1505.53,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-23,Storage,922.68,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-23,Network,381.04,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-24,Virtual Machines,1429.05,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-24,Storage,937.0,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-24,Network,373.67,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-25,Virtual Machines,1464.73,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-25,Storage,917.14,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-25,Network,396.81,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-26,Virtual Machines,1432.81,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-26,Storage,955.05,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-26,Network,399.8,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-27,Virtual Machines,970.26,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-27,Storage,908.82,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-27,Network,227.64,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-28,Virtual Machines,933.95,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-28,Storage,921.16,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-28,Network,248.78,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-29,Virtual Machines,1487.51,"{""env"": ""Production"", ""team"": ""FinTech""}",0,none
+2026-06-29,Storage,962.43,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
+2026-06-29,Network,396.69,"{""env"": ""Dev"", ""team"": ""FinTech""}",0,none
