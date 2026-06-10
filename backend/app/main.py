@@ -6,7 +6,7 @@ from typing import Optional, List
 from pydantic import BaseModel
 import uvicorn
 
-from agent_rca import app_graph
+from backend.app.api.agent_rca import app_graph
 
 # --- Database Setup ---
 DB_URL = "postgresql://postgres:finops_password@localhost:5432/finops_intelligence"
@@ -145,4 +145,5 @@ async def trigger_root_cause_analysis(incident: IncidentTrigger):
 
 if __name__ == "__main__":
     print("--- Starting FinOps API Middleware with Integrated Agent Lifecycle ---")
-    uvicorn.run("api_main:app", host="0.0.0.0", port=8000, reload=True)
+    # uvicorn.run("api_main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("backend.app.main:app", host="0.0.0.0", port=8000, reload=True)
