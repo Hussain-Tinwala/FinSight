@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, text
 from datetime import date, timedelta
 from typing import Optional, List
@@ -15,6 +16,15 @@ app = FastAPI(
     title="Cloud FinOps Intelligence API",
     description="Middleware for serving ML-scored cloud billing data and forecasts.",
     version="1.0.0"
+)
+
+# Add CORS Middleware to unblock browser security
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://localhost:3000"], # Vite defaults
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # --- Pydantic Data Validation Schemas ---
