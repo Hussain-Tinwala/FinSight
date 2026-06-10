@@ -5,6 +5,8 @@ from typing import Optional, List
 from pydantic import BaseModel
 import uvicorn
 
+from agent_rca import app_graph
+
 # --- Database Setup ---
 DB_URL = "postgresql://postgres:finops_password@localhost:5432/finops_intelligence"
 engine = create_engine(DB_URL, pool_size=5, max_overflow=10)
@@ -15,7 +17,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# --- Pydantic Response Models ---
+# --- Pydantic Data Validation Schemas ---
 class SpendRecord(BaseModel):
     timestamp: str
     cloud_provider: str
@@ -30,6 +32,17 @@ class ForecastRecord(BaseModel):
     lower_bound: float
     upper_bound: float
     model_used: str
+
+class IncidentTrigger(BaseModel):
+    date: str
+    type: str
+    stream: str
+
+class RCALogResponse(BaseModel):
+    status: str
+    target_date: str
+    topology: str
+    report: str
 
 # --- Endpoints ---
 
@@ -83,6 +96,43 @@ def get_forecast():
     except FileNotFoundError:
         raise HTTPException(status_code=404, detail="Forecast data not yet generated.")
 
+# --- NEW: AI Agent Core Integration Endpoint ---
+
+@app.post("/api/v1/anomaly/rca", response_model=RCALogResponse)
+async def trigger_root_cause_analysis(incident: IncidentTrigger):
+    """
+    Asynchronously invokes the LangGraph multi-agent state machine
+    to generate an engineering root-cause analysis brief for a given anomaly.
+    """
+    print(f"[API Layer] Received RCA request for {incident.stream} on {incident.date}")
+    
+    # Structure the initial graph state using data sent from the request payload
+    initial_state = {
+        "anomaly_details": {
+            "date": incident.date,
+            "type": incident.type,
+            "stream": incident.stream
+        },
+        "fetched_data": [],
+        "analysis_notes": [],
+        "final_rca_report": "",
+        "next_step": ""
+    }
+    
+    try:
+        # Run the graph asynchronously to keep the main web server thread completely free
+        graph_output = await app_graph.ainvoke(initial_state)
+        
+        return {
+            "status": "success",
+            "target_date": incident.date,
+            "topology": incident.type,
+            "report": graph_output.get("final_rca_report", "Analysis failed to yield text.")
+        }
+    except Exception as e:
+        print(f"[API Layer Error] Graph execution failed: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"AI Agent RCA Execution Failure: {str(e)}")
+
 if __name__ == "__main__":
-    print("--- Starting FinOps API Middleware ---")
+    print("--- Starting FinOps API Middleware with Integrated Agent Lifecycle ---")
     uvicorn.run("api_main:app", host="0.0.0.0", port=8000, reload=True)
