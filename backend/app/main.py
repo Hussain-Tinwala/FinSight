@@ -34,7 +34,17 @@ security_bearer = HTTPBearer()
 
 # --- Database Connection Pool Setup ---
 # Dynamically loaded from config.py -> .env
-engine = create_engine(settings.DB_URL, pool_size=10, max_overflow=20)
+# engine = create_engine(settings.DB_URL, pool_size=10, max_overflow=20)
+
+# --- Database Connection Pool Setup ---
+# Upgraded with fail-safes to prevent Neon serverless drops from triggering 500 errors
+engine = create_engine(
+    settings.DB_URL, 
+    pool_size=10, 
+    max_overflow=20,
+    pool_pre_ping=True,   # Verifies connection viability before distributing queries
+    pool_recycle=300      # Recycles connections every 5 minutes to bypass idle timeout cuts
+)
 
 app = FastAPI(
     title="FinSight Intelligence Core",
@@ -239,14 +249,33 @@ def get_actual_spend(
     
     return [{**r, "timestamp": str(r["timestamp"])} for r in result]
 
+# @app.get("/api/v1/forecast", response_model=List[ForecastRecord])
+# def get_forecast(tenant: dict = Depends(get_current_tenant)):
+#     forecast_path = os.path.join(ROOT_DIR, "data", "production_forecast.csv")
+#     try:
+#         df = pd.read_csv(forecast_path)
+#         return df.to_dict(orient="records")
+#     except FileNotFoundError:
+#         raise HTTPException(status_code=404, detail="Ensembled prediction matrices missing.")
+
 @app.get("/api/v1/forecast", response_model=List[ForecastRecord])
 def get_forecast(tenant: dict = Depends(get_current_tenant)):
-    forecast_path = os.path.join(ROOT_DIR, "data", "production_forecast.csv")
-    try:
-        df = pd.read_csv(forecast_path)
-        return df.to_dict(orient="records")
-    except FileNotFoundError:
-        raise HTTPException(status_code=404, detail="Ensembled prediction matrices missing.")
+    query = text("""
+        SELECT date, cloud_provider, unified_category, predicted_cost, lower_bound, upper_bound, model_used
+        FROM cloud_forecast
+        WHERE organization_id = :org_id
+        ORDER BY date ASC;
+    """)
+    
+    with engine.connect() as conn:
+        result = conn.execute(query, {"org_id": tenant["organization_id"]}).mappings().all()
+        
+    # THE FAILSAFE: If the database has no data, return a graceful empty array to protect the React UI
+    if not result:
+        return []
+        
+    # Convert dates to strings for JSON serialization
+    return [{**r, "date": str(r["date"])} for r in result]
 
 @app.post("/api/v1/anomaly/rca", response_model=RCALogResponse)
 async def trigger_root_cause_analysis(incident: IncidentTrigger, tenant: dict = Depends(get_current_tenant)):
@@ -291,6 +320,43 @@ class DemoTriggerResponse(BaseModel):
     target_date: str
     cost_injected: float
 
+# @app.post("/api/v1/dev/simulate_anomaly", response_model=DemoTriggerResponse)
+# def trigger_live_interview_demo(tenant: dict = Depends(get_current_tenant)):
+#     """
+#     DEV ONLY: Simulates an incoming AWS EventBridge webhook firing a massive 
+#     cost overrun into the database. Used for live portfolio demonstrations.
+#     """
+#     import random
+    
+#     # Target date specifically aligned with our mock dataset timeline
+#     target_date = "2026-06-28"
+#     massive_cost = round(random.uniform(15000, 19000), 2)
+#     org_id = tenant["organization_id"]
+    
+#     query = text("""
+#         INSERT INTO cloud_spend 
+#         (organization_id, timestamp, cloud_provider, unified_category, cost, normalized_env, normalized_team, is_anomaly, anomaly_type)
+#         VALUES 
+#         (:org_id, :target_date, 'AWS', 'COMPUTE', :cost, 'dev', 'ai-research', 1, 'massive_spike')
+#     """)
+    
+#     try:
+#         with engine.begin() as conn:
+#             conn.execute(query, {
+#                 "org_id": org_id,
+#                 "target_date": target_date,
+#                 "cost": massive_cost
+#             })
+#         return {
+#             "status": "success", 
+#             "message": "AWS Webhook simulated. Anomaly injected into database.",
+#             "target_date": target_date,
+#             "cost_injected": massive_cost
+#         }
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=f"Failed to inject demo anomaly: {str(e)}")
+
+
 @app.post("/api/v1/dev/simulate_anomaly", response_model=DemoTriggerResponse)
 def trigger_live_interview_demo(tenant: dict = Depends(get_current_tenant)):
     """
@@ -299,8 +365,8 @@ def trigger_live_interview_demo(tenant: dict = Depends(get_current_tenant)):
     """
     import random
     
-    # Target date specifically aligned with our mock dataset timeline
-    target_date = "2026-06-28"
+    # THE FIX: Moved from June 28th to June 20th so it renders safely inside the visible "Actual Spend" UI zone
+    target_date = "2026-06-20" 
     massive_cost = round(random.uniform(15000, 19000), 2)
     org_id = tenant["organization_id"]
     
