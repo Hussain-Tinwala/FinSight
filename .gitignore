@@ -140,3 +140,24 @@ __pycache__/
 # Temporary/Misc
 temp.md
 *.local
+
+
+
+# Environments & Secrets
+.env
+.venv
+venv/
+ENV/
+__pycache__/
+*.pyc
+
+# Frontend dependencies
+node_modules/
+dist/
+build/
+.npm/
+.eslintcache
+
+# OS generated files
+.DS_Store
+Thumbs.db
