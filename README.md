@@ -146,8 +146,8 @@ To guarantee a seamless, zero-latency dashboard experience, the data flow is str
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/FinSight-AI.git
-cd FinSight-AI
+git clone https://github.com/Hussain-Tinwala/FinSight.ai.git
+cd FinSight.ai
 
 ```
 
