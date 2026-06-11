@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 from prophet import Prophet
@@ -5,33 +6,40 @@ import lightgbm as lgb
 import warnings
 warnings.filterwarnings('ignore')
 
+# --- DYNAMIC PATH RESOLUTION ---
+WORKER_DIR = os.path.dirname(os.path.abspath(__file__))
+BACKEND_DIR = os.path.dirname(WORKER_DIR)
+ROOT_DIR = os.path.dirname(BACKEND_DIR)
+
 def prepare_forecast_data():
-    """Loads our final evaluated dataset and prepares it for the models."""
-    df = pd.read_csv("final_evaluated_billing.csv")
+    """Loads our final evaluated dataset and prepares it for the models using absolute paths."""
+    # Securely resolve the exact path to the data folder
+    data_path = os.path.join(ROOT_DIR, "data", "final_evaluated_billing.csv")
+    
+    if not os.path.exists(data_path):
+        raise FileNotFoundError(f"Missing required training data at {data_path}")
+
+    df = pd.read_csv(data_path)
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     
-    # Let's isolate AWS COMPUTE for this R&D forecasting module
     df_stream = df[(df['cloud_provider'] == 'AWS') & (df['unified_category'] == 'COMPUTE')].copy()
     
-    # Aggregate to daily intervals since forecasting 90 days out hourly is massive overkill
     daily_df = df_stream.groupby(df_stream['timestamp'].dt.date).agg({
         'cost': 'sum',
-        'is_anomaly': 'max' # keep track if an anomaly happened that day
+        'is_anomaly': 'max' 
     }).reset_index()
     
     daily_df.columns = ['date', 'cost', 'had_anomaly']
     daily_df['date'] = pd.to_datetime(daily_df['date'])
     daily_df = daily_df.sort_values('date').reset_index(drop=True)
     
-    # CRITICAL FINOPS TRICK: Clean historical anomalies before forecasting!
-    # If we leave a massive $5,000 accidental spike in the history, Prophet will think 
-    # that spike is part of our normal trajectory and ruin the future forecast.
+    # Smooth historical anomalies with rolling median
     daily_df['cleaned_cost'] = daily_df['cost']
-    # Smooth out anomalous days by replacing them with a rolling median
     rolling_median = daily_df['cost'].rolling(window=7, min_periods=1, center=True).median()
     daily_df.loc[daily_df['had_anomaly'] == 1, 'cleaned_cost'] = rolling_median
     
     return daily_df
+
 
 def run_prophet_forecast(train_df, horizon=90):
     """Trains Meta Prophet and predicts into the future with confidence intervals."""
